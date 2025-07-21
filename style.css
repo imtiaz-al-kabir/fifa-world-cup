@@ -113,6 +113,9 @@ img {
 }
 
 @media screen and (max-width: 992px) {
+  .container {
+    margin: 0 20px;
+  }
   .banner-left h2 {
     font-size: 3.12rem;
     line-height: 3.12rem;
@@ -136,6 +139,9 @@ img {
   }
 }
 @media screen and (max-width: 768px) {
+  .container {
+    margin: 0 10px;
+  }
   .banner {
     flex-direction: column;
     text-align: center;
@@ -148,5 +154,14 @@ img {
     margin-bottom: 50px;
     padding-left: 0;
     padding-top: 30px;
+  }
+  .upcoming-left {
+    flex-direction: column;
+    width: 100%;
+    background: transparent;
+  }
+  .upcoming-right {
+    grid-template-columns: 1fr;
+    place-items: center;
   }
 }
